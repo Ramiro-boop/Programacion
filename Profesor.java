@@ -1,15 +1,13 @@
-package clase_09_04_25;
+package DeberHerencia;
 
-public class Profesor {
+public class Profesor extends Persona {
 	
-	int ci;
-	String nombre;
-	String apellido;
+	String Asignatura;
 
-	public Profesor(int ci, String nombre, String apellido) {
-		this.ci = ci;
-		this.nombre = nombre;
-		this.apellido = apellido;
+	public Profesor(String nombre, String apellido, int CI,String Asignatura){
+		super(nombre,apellido,CI);
+		this.Asignatura = Asignatura;
+		
 	}
 
 	public static void main(String[] args) {
