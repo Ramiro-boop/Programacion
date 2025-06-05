@@ -38,7 +38,7 @@ public class Alimento extends Producto {
 	}@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return super.toString()+"tipo: "+tipo+", Pesa: "+peso+"Kg";
+		return super.toString()+" Tipo: "+tipo+", Pesa: "+peso+"Kg";
 	}
 
 
