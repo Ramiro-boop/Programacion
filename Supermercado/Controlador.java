@@ -53,6 +53,10 @@ public class Controlador {
 		System.out.println("Ingrese el peso en Kg");
 		System.out.print(">");
 		A1.setPeso(L.nextDouble());
+
+		System.out.println(E1);
+		System.out.println(R1);
+		System.out.println(A1);
 		
 
 	}
