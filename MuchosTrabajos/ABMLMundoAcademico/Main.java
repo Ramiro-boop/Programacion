@@ -2,8 +2,6 @@ package MundoAcademico;
 
 import java.util.Scanner;
 
-import Supermercado.Electronica;
-
 public class Main {
 
 	public static void main(String[] args) {
